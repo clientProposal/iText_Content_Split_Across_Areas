@@ -1,0 +1,5 @@
+Layout measures this paragraph against the space it is offered.
+If every line fits, the result is FULL. If only some lines fit,
+the paragraph is split and the rest continues in the next area:
+PARTIAL. If not even the first line fits, nothing is placed here
+and the whole paragraph moves on: NOTHING.
