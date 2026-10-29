@@ -1,0 +1,28 @@
+# Maven build output
+target/
+
+# Compiled Java
+*.class
+*.jar
+*.war
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# IntelliJ (in case anyone opens it there)
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# macOS
+.DS_Store
+
+# Generated demo output (remove this line to commit a sample PDF)
+layout-results-2.pdf
