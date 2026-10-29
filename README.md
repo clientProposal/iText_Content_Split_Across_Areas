@@ -10,7 +10,7 @@ Each element is laid out into a fixed **red rectangle**. Depending on how much s
 | `PARTIAL` | Only part of it fits | Draws the part that fits in the red area. The rest is laid out again and drawn in the **grey rectangle** (the "next area") |
 | `NOTHING` | None of it fits | Moves the whole element to the grey area (`goesNext = renderer`) |
 
-The results are written to `layout-results-2.pdf`. Each page shows one attempt and has a label with the element type and status.
+The results are written to `layout-results.pdf`. Each page shows one attempt and has a label with the element type and status.
 
 ## What it demonstrates
 
