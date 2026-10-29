@@ -1,6 +1,6 @@
 # iText Content Split Across Areas
 
-A small Java demo that shows how iText 7 decides whether a layout element fits into a given area, and what happens when it doesn't.
+A small Java demo that shows how iText decides whether a layout element fits into a given area, and what happens when it doesn't.
 
 Each element is laid out into a fixed **red rectangle**. Depending on how much space it gets, `layout()` returns one of three `LayoutResult` statuses:
 
