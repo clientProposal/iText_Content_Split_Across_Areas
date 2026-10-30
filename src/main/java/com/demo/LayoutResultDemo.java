@@ -88,13 +88,13 @@ public class LayoutResultDemo {
                 : layoutResStatus == LayoutResult.NOTHING ? renderer
                         : null;
 
-        DrawContext draw = new DrawContext(pdf, canvas);
+        DrawContext drawContext = new DrawContext(pdf, canvas);
 
         if (fitsHere != null)
-            fitsHere.draw(draw);
+            fitsHere.draw(drawContext);
         if (goesNext != null) {
             goesNext.layout(new LayoutContext(new LayoutArea(pageNum, nextArea__greyRectangle)));
-            goesNext.draw(draw);
+            goesNext.draw(drawContext);
         }
 
         canvas.setStrokeColor(ColorConstants.RED).rectangle(thisArea__redRectangle).stroke();
